@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: zero-session-boot
+    data:
+        redis:
+            host: 127.0.0.1
+            password: admin123
+            port: 6379
+    session:
+        store-type: redis
+        timeout: 1800
+        redis:
+            namespace: test:spring:session
+            repository-type: default

@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: zero-session-boot
+    profiles:
+        active: dev
+server:
+    port: 8080
+    servlet:
+        session:
+            timeout: 600
